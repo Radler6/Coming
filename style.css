@@ -1,6 +1,38 @@
 @import url("font/NHaasGroteskTXPro-65Md.ttf");
-* {
+html {
 	box-sizing: border-box;
+	font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
 }
 
 body {
@@ -32,7 +64,7 @@ h2 {
 	color: #ff7276;
 }
 .spacer {
-	height: 30vh;
+	height: 40vh;
 }
 .countdown-el {
 	text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.1);
